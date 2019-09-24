@@ -60,6 +60,7 @@ dependencies {
     implementation deps.support.constraintlayout
 
     /* Testing framework */
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation deps.unittest.junit
     androidTestImplementation deps.support.test.runner
     androidTestImplementation deps.support.test.espresso
